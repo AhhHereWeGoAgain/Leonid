@@ -295,3 +295,31 @@ body {
         height: 44px;
     }
 }
+/* Чтобы длинные ссылки/слова не ломали пузырь */
+.message-content p {
+    margin: 0;
+    white-space: pre-wrap;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+}
+
+/* У пользователя иногда пузырь не прижимается вправо из-за flex */
+.user-message {
+    justify-content: flex-end;
+}
+
+/* Выровнять контент AI-сообщения по центру аватара */
+.ai-message {
+    align-items: flex-end;
+}
+
+/* Чуть ровнее отступы для message-avatar */
+.message-avatar {
+    display: flex;
+    align-items: flex-end;
+}
+
+/* Чтобы input не сжимался на мобиле странно */
+.message-form {
+    width: 100%;
+}

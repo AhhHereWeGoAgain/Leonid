@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <link rel="stylesheet" href="../assets/styles/register.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <script defer src="../scripts/login.js"></script>
+</head>
+<body>
+  <div class="mp_wrapper">
+    <div class="name_reg">
+      <h2>Login</h2>
+    </div>
+
+    <form id="loginForm" class="form-example">
+      <div class="email">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="your.email@example.com" required />
+      </div>
+
+      <div class="password">
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Your password" required />
+      </div>
+
+      <div class="reg">
+        <input id="submit_button" type="submit" value="Sign In" />
+      </div>
+
+      <div style="margin-top:10px; font-size:14px;">
+        Нет аккаунта? <a href="register.html">Регистрация</a>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

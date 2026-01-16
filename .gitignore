@@ -1,3 +1,31 @@
-.idea/
+# Secrets / env
+.env
+.env.*
+env
+*.env
+
+# Python
 __pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
 venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Frontend builds (если появятся)
+node_modules/
+dist/
+build/
+.cache/
